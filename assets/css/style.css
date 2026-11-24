@@ -377,29 +377,34 @@ main > .hero:first-child,
 }
 
 .password-input-group .form-control {
-  padding-right: 44px;
+  padding-right: 42px;
 }
 
 .password-toggle-btn {
   position: absolute;
-  right: 8px;
+  right: 14px;
   top: 50%;
   transform: translateY(-50%);
   background: transparent;
   border: none;
+  padding: 0;
   cursor: pointer;
-  padding: 6px;
-  color: var(--text-muted);
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
+  color: #64748b;
   transition: color var(--transition);
   user-select: none;
   z-index: 2;
+  line-height: 1;
 }
 
 .password-toggle-btn:hover {
   color: var(--accent-teal);
+}
+
+.password-toggle-btn:focus {
+  outline: none;
 }
 
 .password-toggle-btn svg {
