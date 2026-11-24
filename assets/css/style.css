@@ -380,7 +380,8 @@ main > .hero:first-child,
   padding-right: 42px;
 }
 
-.password-toggle-btn {
+.password-toggle-btn,
+.password-toggle {
   position: absolute;
   right: 14px;
   top: 50%;
@@ -399,15 +400,18 @@ main > .hero:first-child,
   line-height: 1;
 }
 
-.password-toggle-btn:hover {
+.password-toggle-btn:hover,
+.password-toggle:hover {
   color: var(--accent-teal);
 }
 
-.password-toggle-btn:focus {
+.password-toggle-btn:focus,
+.password-toggle:focus {
   outline: none;
 }
 
-.password-toggle-btn svg {
+.password-toggle-btn svg,
+.password-toggle svg {
   display: block;
 }
 
